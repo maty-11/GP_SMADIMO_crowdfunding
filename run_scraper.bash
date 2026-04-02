@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Активируем виртуальное окружение, если оно есть
-if [ -d ".venv" ]; then
+if [ -d "venv" ]; then
     echo "Активация виртуального окружения..."
-    source .venv/bin/activate
-    pip3 install -r requirements.txt
+    source ./venv/bin/activate
+    pip3 install -r ./requirements.txt
 fi
 
 # Параметры: начальная страница, конечная страница, выходной файл
@@ -26,8 +26,8 @@ for ((page=$START_PAGE; page<=$END_PAGE; page++)); do
     fi
     
     if [ $page -lt $END_PAGE ]; then
-        echo "Ожидание 6 секунд перед следующей страницей..."
-        sleep 6
+        echo "Ожидание 2 секунд перед следующей страницей..."
+        sleep 2
     fi
 done
 
