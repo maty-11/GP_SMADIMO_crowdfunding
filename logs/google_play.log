@@ -1,0 +1,33 @@
+2026-04-08 23:43:05,963  started parsing google_play_ids
+2026-04-08 23:43:10,645  writed 32 rows in games_id.csv
+2026-04-08 23:43:11,825  writed 32 rows in games_id.csv
+2026-04-08 23:43:12,928  writed 32 rows in games_id.csv
+2026-04-08 23:43:13,854  writed 31 rows in games_id.csv
+2026-04-08 23:43:14,882  writed 31 rows in games_id.csv
+2026-04-08 23:43:15,911  writed 32 rows in games_id.csv
+2026-04-08 23:43:16,838  writed 32 rows in games_id.csv
+2026-04-08 23:43:17,814  writed 32 rows in games_id.csv
+2026-04-08 23:43:18,978  writed 16 rows in games_id.csv
+2026-04-08 23:43:20,129  writed 32 rows in games_id.csv
+2026-04-08 23:43:21,177  writed 32 rows in games_id.csv
+2026-04-08 23:43:32,846  нет результатов по запросу GAME_ROLE_PLAYING
+2026-04-08 23:43:34,020  writed 31 rows in games_id.csv
+2026-04-08 23:43:35,061  writed 31 rows in games_id.csv
+2026-04-08 23:43:36,168  writed 32 rows in games_id.csv
+2026-04-08 23:43:37,096  writed 10 rows in games_id.csv
+2026-04-08 23:43:38,211  writed 32 rows in games_id.csv
+2026-04-08 23:43:39,163  writed 12 rows in games_id.csv
+2026-04-08 23:43:40,259  writed 14 rows in games_id.csv
+2026-04-08 23:43:41,185  writed 11 rows in games_id.csv
+2026-04-08 23:43:42,372  writed 32 rows in games_id.csv
+2026-04-08 23:48:13,424  game Sherlock: Поиск предметов parsed
+2026-04-08 23:48:13,891  game Chapters: Интерактивные Романы parsed
+2026-04-08 23:48:14,456  game Записки Искателя Seekers Notes parsed
+2026-04-08 23:48:14,973  game Coastal Hill: Искать Предметы parsed
+2026-04-08 23:48:15,414  game Star Equestrian – Конюшня parsed
+2026-04-08 23:48:15,776  game Homicide Squad: найди улики parsed
+2026-04-08 23:48:16,129  game Infinity Nikki parsed
+2026-04-08 23:48:16,495  game Miscrits parsed
+2026-04-08 23:48:16,876  game Mystery Files: Поиск Предметов parsed
+2026-04-08 23:48:17,236  game Ravenhill: Find Hidden Objects parsed
+2026-04-08 23:48:17,237  writed 10 records in google_play_games_data.csv

@@ -1,0 +1,90 @@
+2026-04-08 23:30:15,860  start parsing page 10 and category 1
+2026-04-08 23:30:21,358  12 rows from page 10 and category 1 saved in data/kickstarter.csv
+2026-04-08 23:30:23,519  start parsing page 11 and category 1
+2026-04-08 23:30:27,665  12 rows from page 11 and category 1 saved in data/kickstarter.csv
+2026-04-08 23:30:29,839  start parsing page 12 and category 1
+2026-04-08 23:30:33,164  12 rows from page 12 and category 1 saved in data/kickstarter.csv
+2026-04-08 23:30:35,344  start parsing page 13 and category 1
+2026-04-08 23:30:38,709  12 rows from page 13 and category 1 saved in data/kickstarter.csv
+2026-04-08 23:30:40,888  start parsing page 14 and category 1
+2026-04-08 23:30:44,888  12 rows from page 14 and category 1 saved in data/kickstarter.csv
+2026-04-08 23:30:47,082  start parsing page 15 and category 1
+2026-04-08 23:30:51,767  12 rows from page 15 and category 1 saved in data/kickstarter.csv
+2026-04-08 23:30:53,953  start parsing page 16 and category 1
+2026-04-08 23:30:58,113  12 rows from page 16 and category 1 saved in data/kickstarter.csv
+2026-04-08 23:31:00,273  start parsing page 17 and category 1
+2026-04-08 23:31:03,719  12 rows from page 17 and category 1 saved in data/kickstarter.csv
+2026-04-08 23:31:05,899  start parsing page 18 and category 1
+2026-04-08 23:31:12,256  12 rows from page 18 and category 1 saved in data/kickstarter.csv
+2026-04-08 23:31:14,432  start parsing page 19 and category 1
+2026-04-08 23:31:18,189  12 rows from page 19 and category 1 saved in data/kickstarter.csv
+2026-04-08 23:31:20,367  start parsing page 20 and category 1
+2026-04-08 23:31:26,321  12 rows from page 20 and category 1 saved in data/kickstarter.csv
+2026-04-08 23:31:28,482  start parsing page 21 and category 1
+2026-04-08 23:31:32,388  12 rows from page 21 and category 1 saved in data/kickstarter.csv
+2026-04-08 23:31:34,567  start parsing page 22 and category 1
+2026-04-08 23:31:38,752  12 rows from page 22 and category 1 saved in data/kickstarter.csv
+2026-04-08 23:31:40,933  start parsing page 23 and category 1
+2026-04-08 23:31:51,770  error while parsing page 23 and category 1: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010138399c cxxbridge1$str$ptr + 3160104
+1   chromedriver                        0x000000010137ba28 cxxbridge1$str$ptr + 3127476
+2   chromedriver                        0x0000000100e4f904 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75036
+3   chromedriver                        0x0000000100e977d8 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 369648
+4   chromedriver                        0x0000000100ed64d4 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 626924
+5   chromedriver                        0x0000000100e8d1a0 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327096
+6   chromedriver                        0x0000000101342220 cxxbridge1$str$ptr + 2891948
+7   chromedriver                        0x0000000101345910 cxxbridge1$str$ptr + 2906012
+8   chromedriver                        0x00000001013275d8 cxxbridge1$str$ptr + 2782308
+9   chromedriver                        0x0000000101346194 cxxbridge1$str$ptr + 2908192
+10  chromedriver                        0x0000000101318090 cxxbridge1$str$ptr + 2719516
+11  chromedriver                        0x000000010136ab30 cxxbridge1$str$ptr + 3058108
+12  chromedriver                        0x000000010136acac cxxbridge1$str$ptr + 3058488
+13  chromedriver                        0x000000010137b680 cxxbridge1$str$ptr + 3126540
+14  libsystem_pthread.dylib             0x000000018ebcbbc8 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000018ebc6b80 thread_start + 8
+
+2026-04-08 23:31:53,963  start parsing page 24 and category 1
+2026-04-08 23:31:58,386  12 rows from page 24 and category 1 saved in data/kickstarter.csv
+2026-04-08 23:32:00,556  start parsing page 25 and category 1
+2026-04-08 23:32:05,056  12 rows from page 25 and category 1 saved in data/kickstarter.csv
+2026-04-08 23:32:07,234  start parsing page 26 and category 1
+2026-04-08 23:32:11,328  12 rows from page 26 and category 1 saved in data/kickstarter.csv
+2026-04-08 23:32:13,509  start parsing page 27 and category 1
+2026-04-08 23:32:17,515  12 rows from page 27 and category 1 saved in data/kickstarter.csv
+2026-04-08 23:32:19,690  start parsing page 28 and category 1
+2026-04-08 23:32:23,160  12 rows from page 28 and category 1 saved in data/kickstarter.csv
+2026-04-08 23:32:25,336  start parsing page 29 and category 1
+2026-04-08 23:32:29,218  12 rows from page 29 and category 1 saved in data/kickstarter.csv
+2026-04-08 23:32:31,397  start parsing page 30 and category 1
+2026-04-08 23:32:36,170  12 rows from page 30 and category 1 saved in data/kickstarter.csv
+2026-04-08 23:32:38,346  start parsing page 31 and category 1
+2026-04-08 23:32:42,375  12 rows from page 31 and category 1 saved in data/kickstarter.csv
+2026-04-08 23:32:44,552  start parsing page 32 and category 1
+2026-04-08 23:32:47,516  12 rows from page 32 and category 1 saved in data/kickstarter.csv
+2026-04-08 23:32:49,688  start parsing page 33 and category 1
+2026-04-08 23:32:52,983  12 rows from page 33 and category 1 saved in data/kickstarter.csv
+2026-04-08 23:32:55,159  start parsing page 34 and category 1
+2026-04-08 23:32:58,536  12 rows from page 34 and category 1 saved in data/kickstarter.csv
+2026-04-08 23:33:00,706  start parsing page 35 and category 1
+2026-04-08 23:33:04,028  12 rows from page 35 and category 1 saved in data/kickstarter.csv
+2026-04-08 23:33:06,206  start parsing page 36 and category 1
+2026-04-08 23:33:09,369  12 rows from page 36 and category 1 saved in data/kickstarter.csv
+2026-04-08 23:33:11,558  start parsing page 37 and category 1
+2026-04-08 23:33:14,884  12 rows from page 37 and category 1 saved in data/kickstarter.csv
+2026-04-08 23:33:17,068  start parsing page 38 and category 1
+2026-04-08 23:33:20,226  12 rows from page 38 and category 1 saved in data/kickstarter.csv
+2026-04-08 23:33:22,405  start parsing page 39 and category 1
+2026-04-08 23:33:28,175  12 rows from page 39 and category 1 saved in data/kickstarter.csv
+2026-04-08 23:33:30,351  start parsing page 40 and category 1
+2026-04-08 23:33:34,458  12 rows from page 40 and category 1 saved in data/kickstarter.csv
+2026-04-08 23:35:56,161  start parsing page 50 and category 1
+2026-04-08 23:36:00,269  12 rows from page 50 and category 1 saved in data/kickstarter.csv
+2026-04-08 23:36:02,455  start parsing page 51 and category 1
+2026-04-08 23:36:05,743  12 rows from page 51 and category 1 saved in data/kickstarter.csv
+2026-04-08 23:36:07,924  start parsing page 52 and category 1
+2026-04-08 23:36:11,191  12 rows from page 52 and category 1 saved in data/kickstarter.csv
+2026-04-08 23:36:13,366  start parsing page 53 and category 1
+2026-04-08 23:36:17,371  12 rows from page 53 and category 1 saved in data/kickstarter.csv
+2026-04-08 23:36:19,550  start parsing page 54 and category 1
+2026-04-08 23:36:23,695  12 rows from page 54 and category 1 saved in data/kickstarter.csv

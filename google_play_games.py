@@ -1,6 +1,6 @@
 import csv
 import requests
-from dotenv import load_dotenv
+import logging
 import os
 import sys
 
@@ -10,11 +10,26 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException
+from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(".env")
+
+FORMAT = '%(asctime)s  %(message)s'
+is_logging_mode = os.getenv('LOGGING') == "True"
+
+default_logger_level = logging.FATAL
+if is_logging_mode:
+    default_logger_level = logging.INFO
+
+logger = logging.getLogger(__name__)
+logging.basicConfig(
+    filename='logs/google_play.log',
+    level=default_logger_level,
+    format=FORMAT
+)
+
 
 game_ids = []
-
 
 with open('games_id.csv', 'r', encoding='utf-8') as file:
     reader = csv.DictReader(file)
@@ -22,7 +37,6 @@ with open('games_id.csv', 'r', encoding='utf-8') as file:
         game_ids.append(game_id)
 
 BASE_URL = "https://play.google.com/store/apps/details"
-# https://play.google.com/store/apps/details?id=com.tutotoons.app.mybabyunicorn.free
 
 def get_game_by_id(driver, id):
     url =  f"{BASE_URL}?id={id}"
@@ -82,11 +96,11 @@ for game_row in game_ids[c:]:
             "download": dwnl,
             "tags": ",".join(tags)
         })
-        # print(records[-1])
+        logger.info("game %s parsed", readable_name)
         c += 1
         if c == end_c: break
     except Exception as e:
-        print(f"no data to url {game_id}")
+        logger.error("no data to url %s, error %s", game_id, e)
         continue
 
 
@@ -102,3 +116,4 @@ with open(output_filename, 'a', encoding='utf-8', newline='') as csvfile:
         writer.writeheader()
 
     writer.writerows(records)
+    logger.info("writed %s records in %s", len(records), output_filename)
